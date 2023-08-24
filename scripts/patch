@@ -30,7 +30,7 @@ cd $HOME/termux-box/ubuntu-fs
 touch opt/prefix-apply-patch
 
 rm -rf patch.tar.xz
-wget -q --show-progress https://github.com/olegos2/termux-box/releases/download/0.0.1-alpha/patch.tar.xz
+wget -q --show-progress https://github.com/olegos2/termux-box/releases/download/0.0.1-dev-test/patch.tar.xz
 rm -rf opt/d3d
 rm -rf opt/mesa
 tar -xf patch.tar.xz
